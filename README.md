@@ -20,6 +20,7 @@
 - [🚀 Introduction](#🚀-introduction)
 - [📋 Contents](#📋-contents)
 - [💘 Tips](#💘-tips)
+- [🔍 Search Strategy](#🔍-search-strategy)
 - [📍 Bandit-enhancements for LLMs](#📍-bandit-enhancements-for-llms)
   - [Pre-training](#pre-training)
   - [Fine-tuning](#fine-tuning)
@@ -45,6 +46,63 @@
 - **✅ Paper searching via author name**: Free feel to search papers of a specific author via `ctrl + F` and then type the author name. The dropdown list of authors will automatically expand when searching.
 - **✅ Paper searching via tag**: You can also search the related papers via the following tags: `customization`, `iteractive`, `human motion generation` `tokenizer`. (More tags are ongoing)
 
+
+# 🔍 Search Strategy
+
+This repository is curated following a systematic methodology to ensure comprehensive coverage of the intersection between Large Language Models (LLMs) and Bandit Algorithms.
+
+## 1. Search Framework
+We adopted the **PCC (Population, Concept, Context)** framework as recommended in 'The Systematic Review: An Overview' by *Aromataris & Pearson (2014)* to structure our search strings.
+
+## 2. Search Queries (30 Key Terms)
+Our search strategy is organized into four hierarchical layers to balance **Sensitivity** (finding all relevant papers) and **Specificity** (filtering out noise).
+
+### A. Core Intersection (High-level)
+*Broad terms used to identify foundational literature at the cross-section.*
+1. `"Large Language Model" AND "Bandit"`
+2. `"LLM" AND "Multi-armed Bandit"`
+3. `"Generative AI" AND "Contextual Bandit"`
+4. `"Foundation Model" AND "Sequential Decision Making"`
+5. `"Autoregressive Model" AND "Online Learning"`
+
+### B. LLM Component-Based Search
+*Focusing on where Bandit algorithms enhance specific LLM stages.*
+
+6. **Pre-training:** `"Pre-training" AND ("Bandit" OR "Exploration")`
+7. **Fine-tuning:** `"Fine-tuning" AND ("Bandit" OR "Optimization")`
+8. **Prompt Design:** `("Prompting" OR "In-context learning") AND "Bandit"`
+9. **Inference:** `("Decoding" OR "Inference optimization") AND "Bandit"`
+10. **Adaptation:** `("Personalization" OR "Model Adaptation") AND "Bandit"`
+11. **Contextual:** `("Context window" OR "Long context") AND "Bandit"`
+12. **RAG:** `("Retrieval-augmented" OR "RAG") AND "Bandit"`
+
+### C. Bandit Component-Based Search
+*Focusing on how LLMs are integrated into Bandit framework elements.*
+
+13. **Optimization Obj:** `("Regret" OR "Reward maximization") AND "LLM"`
+14. **Arm Definition:** `("Action space" OR "Arm representation") AND "LLM"`
+15. **Environment:** `("Dynamic environment" OR "Simulator") AND "LLM"`
+16. **Reward:** `("Reward shaping" OR "Reward model") AND "LLM"`
+17. **Sampling:** `("Thompson Sampling" OR "UCB" OR "Exploration strategy") AND "LLM"`
+18. **Action:** `("Policy selection" OR "Decision making") AND "LLM"`
+
+### D. Specialized & Emerging Interaction Terms
+*Capturing specific techniques and interdisciplinary applications.*
+
+19. `"RLHF" AND "Bandit"`
+20. `"Combinatorial Bandit" AND "Text Generation"`
+21. `"Neural Bandit" AND "Transformer"`
+22. `"Bayesian Optimization" AND "LLM"`
+23. `"Active Learning" AND "LLM" AND "Bandit"`
+24. `"Interactive NLP" AND "Bandit"`
+25. `"Resource allocation" AND "LLM inference" AND "Bandit"`
+26. `"Query selection" AND "RAG" AND "Bandit"`
+27. `"Hyperparameter optimization" AND "LLM" AND "Bandit"`
+28. `"Automated prompt engineering" AND "Multi-armed bandit"`
+29. `"Speculative decoding" AND "Multi-armed bandit"`
+30. `"User preference modeling" AND "Bandit" AND "LLM"`  
+
+  
 
 # 📍 Bandit-enhancements for LLMs
 
@@ -599,9 +657,9 @@ Here is the list of our contributors in each modality of this repository.
 
 | Modality/Task                      |  Contributors                                                 |
 | ----------------------------- | -------------------------------------------------------------------- |
-| Bandit for LLM | Siguang Chen, miao Xie                                       |
+| Bandit for LLM | Siguang Chen, Miao Xie                                       |
 | LLM for Bandit | Siguang Chen, Miao Xie                                       |
-| Leaders               | Miao Xie                                                   |
+| Reference URL Organization    |  Yuan Wang                                       |
 
 # 😉 Citation
 If you find this work useful in your research, Please cite the paper as below:
