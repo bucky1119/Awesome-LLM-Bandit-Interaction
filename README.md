@@ -1,7 +1,7 @@
 
 <div align="center">
 <h2> A Survey on Recent Advances in the Connection between Large Language Models and Multi-armed Bandits </h2> 
-<a href='https://arxiv.org/'><img src='https://img.shields.io/badge/ArXiv-XXXX-red'></a>
+<a href='https://arxiv.org/abs/2601.12945'><img src='https://img.shields.io/badge/ArXiv-2601.12945-red'></a>
 </div>
 
 # 🚀 Introduction
@@ -24,11 +24,13 @@
 - [📍 Bandit-enhancements for LLMs](#📍-bandit-enhancements-for-llms)
   - [Pre-training](#pre-training)
   - [Fine-tuning](#fine-tuning)
+  - [Alignment](#alignment)
   - [Prompt Design and Selection](#prompt-design-and-selection)
   - [Tool and Function Calling](#tool-and-function-calling)
   - [Contextual Understanding](#contextual-understanding)
   - [Retrieval-Augmented Generation](#retrieval-augmented-generation)
-  - [Inference and Generation Optimization](#inference-and-generation-optimization)
+  - [Inference Optimization](#inference-optimization)
+  - [Decoding Strategies](#decoding-strategies)
   - [Adaptation and Personalizing](#adaptation-and-personalizing)
   
 - [📍 LLM-enhancements for Multi-armed Bandits](#📍-llm-enhancements-for-multi-armed-bandits)
