@@ -32,7 +32,7 @@
   - [Adaptation and Personalizing](#adaptation-and-personalizing)
   
 - [📍 LLM-enhancements for Multi-armed Bandits](#📍-llm-enhancements-for-multi-armed-bandits)
-  - [Optimization Objective](#optimization-objective)
+  - [Regret Minimization Objective](#regret-minimization-objective)
   - [Arm Definition](#arm-definition)
   - [Environment](#environment)
   - [Reward Formulation](#reward-formulation)
@@ -214,6 +214,29 @@ Our search strategy is organized into four hierarchical layers to balance **Sens
 
 ## Alignment
 
++ **Nash Learning from Human Feedback** (2024)<details><summary>Remi Munos, Michal Valko, Daniele Calandriello, et al.</summary>Remi Munos, Michal Valko, Daniele Calandriello, Mohammad Gheshlaghi Azar, Mark Rowland, Zhaohan Daniel Guo, Yunhao Tang, Matthieu Geist, Thomas Mesnard, Côme Fiegel, Andrea Michi, Marco Selvi, Sertan Girgin, Nikola Momchev, Olivier Bachem, Daniel J Mankowitz, Doina Precup, Bilal Piot</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://proceedings.mlr.press/v235/munos24a.html)
+
+
++ **Training a helpful and harmless assistant with reinforcement learning from human feedback** (2022)<details><summary>Yuntao Bai, Andy Jones, Kamal Ndousse, et al.</summary>Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, et al.</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2204.05862)
+
+
++ **Aligning large language models with human: A survey** (2023)<details><summary>Yufei Wang, Wanjun Zhong, Liangyou Li, et al.</summary>Yufei Wang, Wanjun Zhong, Liangyou Li, Fei Mi, Xingshan Zeng, Wenyong Huang, Lifeng Shang, Xin Jiang, Qun Liu</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2307.12966)
+
+
++ **Training language models to follow instructions with human feedback** (2022)<details><summary>Long Ouyang, Jeffrey Wu, Xu Jiang, et al.</summary>Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul F Christiano, Jan Leike, Ryan Lowe</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://proceedings.neurips.cc/paper_files/paper/2022/file/b1efde53be364a73914f58805a001731-Paper-Conference.pdf)
+
+
++ **Tokenized Bandit for LLM Decoding and Alignment** (2025)<details><summary>Suho Shin, Chenghao Yang, Haifeng Xu, et al.</summary>Suho Shin, Chenghao Yang, Haifeng Xu, Mohammad T Hajiaghayi</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2506.07276)
+
+
++ **Direct Preference Optimization: Your Language Model is Secretly a Reward Model** (2023)<details><summary>Rafael Rafailov, Archit Sharma, Eric Mitchell, et al.</summary>Rafael Rafailov, Archit Sharma, Eric Mitchell, Christopher D Manning, Stefano Ermon, Chelsea Finn</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://proceedings.neurips.cc/paper_files/paper/2023/file/a85b405ed65c6477a4fe8302b5e06ce7-Paper-Conference.pdf)
+
 
 ## Prompt Design and Selection
 
@@ -270,6 +293,31 @@ Our search strategy is organized into four hierarchical layers to balance **Sens
 [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2510.13907)
 
 ## Tool and Function Calling
+
++ **Reinforcing multi-turn reasoning in llm agents via turn-level credit assignment** (2025)<details><summary>Siliang Zeng, Quan Wei, William Brown, et al.</summary>Siliang Zeng, Quan Wei, William Brown, Oana Frunza, Yuriy Nevmyvaka, Yang Katie Zhao, Mingyi Hong</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://openreview.net/forum?id=h83vIG5Hre)
+
+
++ **Advancing Tool-Augmented Large Language Models: Integrating Insights from Errors in Inference Trees** (2024)<details><summary>Sijia Chen, Yibo Wang, Yi-Feng Wu, et al.</summary>Sijia Chen, Yibo Wang, Yi-Feng Wu, Qing-Guo Chen, Zhao Xu, Weihua Luo, Kaifu Zhang, Lijun Zhang</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://proceedings.neurips.cc/paper_files/paper/2024/file/c0f7ee1901fef1da4dae2b88dfd43195-Paper-Conference.pdf)
+
+
++ **Semantic Context for Tool Orchestration** (2025)<details><summary>Robert Müller</summary>Robert Müller</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2507.10820)
+
+
++ **Learning Evolving Tools for Large Language Models** (2025)<details><summary>Guoxin Chen, Zhong Zhang, Xin Cong, et al.</summary>Guoxin Chen, Zhong Zhang, Xin Cong, Fangda Guo, Yesai Wu, Yankai Lin, Wenzheng Feng, Yasheng Wang</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://openreview.net/forum?id=wtrDLMFU9v)
+
+
++ **Verltool: Towards holistic agentic reinforcement learning with tool use** (2025)<details><summary>Dongfu Jiang, Yi Lu, Zhuofeng Li, et al.</summary>Dongfu Jiang, Yi Lu, Zhuofeng Li, Zhiheng Lyu, Ping Nie, Haozhe Wang, Alex Su, Hui Chen, Kai Zou, Chao Du, et al.</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2509.01055)
+
+
++ **AgentEvolver: Towards Efficient Self-Evolving Agent System** (2025)<details><summary>Yunpeng Zhai, Shuchang Tao, Cheng Chen, et al.</summary>Yunpeng Zhai, Shuchang Tao, Cheng Chen, Anni Zou, Ziqian Chen, Qingxu Fu, Shinji Mai, Li Yu, Jiaji Deng, Zouying Cao, et al.</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2511.10395)
+
+
 
 ## Contextual Understanding
 + **Can large language models explore in-context?** (2024)<details><summary>Akshay Krishnamurthy, Keegan Harris, Dylan J Foster, et al.</summary>Akshay Krishnamurthy, Keegan Harris, Dylan J Foster, Cyril Zhang, Aleksandrs Slivkins</details></details>
@@ -342,88 +390,41 @@ Our search strategy is organized into four hierarchical layers to balance **Sens
 
 ## Inference Optimization
 
-## Decoding Strategies
-
-
-
-## Inference and Generation Optimization
-
-+ **Bandits don't follow rules: Balancing multi-facet machine translation with multi-armed bandits** (2021)<details><summary>Julia Kreutzer, David Vilar, Artem Sokolov</summary>Julia Kreutzer, David Vilar, Artem Sokolov</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2110.06997)
-
-
-+ **Cost-efficient Knowledge-based Question Answering with Large Language Models** (2024)<details><summary>Junnan Dong, Qinggang Zhang, Chuang Zhou, et al.</summary>Junnan Dong, Qinggang Zhang, Chuang Zhou, Hao Chen, Daochen Zha, Xiao Huang</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2405.17337)
-
-
-+ **EVOLvE: Evaluating and Optimizing LLMs For Exploration** (2024)<details><summary>Allen Nie, Yi Su, Bo Chang, et al.</summary>Allen Nie, Yi Su, Bo Chang, Jonathan N Lee, Ed H Chi, Quoc V Le, Minmin Chen</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2410.06238)
-
-
-+ **Sequential query prediction based on multi-armed bandits with ensemble of transformer experts and immediate feedback** (2024)<details><summary>Shameem A Puthiya Parambath, Christos Anagnostopoulos, Roderick Murray-Smith</summary>Shameem A Puthiya Parambath, Christos Anagnostopoulos, Roderick Murray-Smith</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://link.springer.com/article/10.1007/s10618-024-01057-4)
-
-
-+ **Speculative Decoding via Early-exiting for Faster LLM Inference with Thompson Sampling Control Mechanism** (2024)<details><summary>Jiahao Liu, Qifan Wang, Jingang Wang, et al.</summary>Jiahao Liu, Qifan Wang, Jingang Wang, Xunliang Cai</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2406.03853)
-
-
-+ **Which LLM to Play? Convergence-Aware Online Model Selection with Time-Increasing Bandits** (2024)<details><summary>Yu Xia, Fang Kong, Tong Yu, et al.</summary>Yu Xia, Fang Kong, Tong Yu, Liya Guo, Ryan A Rossi, Sungchul Kim, Shuai Li</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://dl.acm.org/doi/10.1145/3589334.3645420)
-
-
-+ **Convergence-Aware Online Model Selection with Time-Increasing Bandits** (2024)<details><summary>Yu Xia, Fang Kong, Tong Yu, et al.</summary>Yu Xia, Fang Kong, Tong Yu, Liya Guo, Ryan A Rossi, Sungchul Kim, Shuai Li</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2403.07213)
-
-
-+ **LLMs Are In-Context Bandit Reinforcement Learners** (2024)<details><summary>Giovanni Monea, Antoine Bosselut, Kiant\'e Brantley, et al.</summary>Giovanni Monea, Antoine Bosselut, Kiant\'e Brantley, Yoav Artzi</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2410.05362)
-
-
-+ **Dynamic and Cost-Efficient Deployment of Large Language Models Using Uplift Modeling and Multi Armed Bandits** (2025)<details><summary>Ninad Tongay</summary>Ninad Tongay</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/f06a14c1-4d6d-441d-b4e4-82545ac5781b.pdf)
-
-
-+ **Tokenized Bandit for LLM Decoding and Alignment** (2025)<details><summary>Suho Shin, Chenghao Yang, Haifeng Xu, et al.</summary>Suho Shin, Chenghao Yang, Haifeng Xu, Mohammad T Hajiaghayi</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2506.07276)
-
-
-+ **Not-a-Bandit: Provably No-Regret Drafter Selection in Speculative Decoding for LLMs** (2025)<details><summary>Hongyi Liu, Jiaji Huang, Zhen Jia, et al.</summary>Hongyi Liu, Jiaji Huang, Zhen Jia, Youngsuk Park, Yu-Xiang Wang</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2510.20064)
-
-
-+ **LLM Cache Bandit Revisited: Addressing Query Heterogeneity for Cost-Effective LLM Inference** (2025)<details><summary>Hantao Yang, Hong Xie, Defu Lian, et al.</summary>Hantao Yang, Hong Xie, Defu Lian, Enhong Chen</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2509.15515)
-
-
-+ **BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms** (2025)<details><summary>Yunlong Hou, Fengzhuo Zhang, Cunxiao Du, et al.</summary>Yunlong Hou, Fengzhuo Zhang, Cunxiao Du, Xuan Zhang, Jiachun Pan, Tianyu Pang, Chao Du, Vincent YF Tan, Zhuoran Yang</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2505.15141)
-
-
 + **LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing** (2025)<details><summary>Yang Li</summary>Yang Li</details></details>
 [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2502.02743)
 
 
-+ **LLM-MS: A multi-model llm search engine** (2025)<details><summary>Konstantin Krasovitskiy, Stelios Christou, Demetrios Zeinalipour-Yazti</summary>Konstantin Krasovitskiy, Stelios Christou, Demetrios Zeinalipour-Yazti</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://ieeexplore.ieee.org/document/11108133)
++ **Adaptive llm routing under budget constraints** (2025)<details><summary>Pranoy Panda, Raghav Magazine, Chaitanya Devaguptapu, et al.</summary>Pranoy Panda, Raghav Magazine, Chaitanya Devaguptapu, Sho Takemori, Vishal Sharma</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2508.21141)
+
+
++ **Dynamic and Cost-Efficient Deployment of Large Language Models Using Uplift Modeling and Multi Armed Bandits** (2025)<details><summary>Ninad Tongay</summary>Ninad Tongay</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://dspace.library.uvic.ca/items/c8e4eec8-0cfb-466d-b9d7-ce3acb131ae2)
 
 
 + **Learning to Route LLMs from Bandit Feedback: One Policy, Many Trade-offs** (2025)<details><summary>Wang Wei, Tiankai Yang, Hongjie Chen, et al.</summary>Wang Wei, Tiankai Yang, Hongjie Chen, Yue Zhao, Franck Dernoncourt, Ryan A. Rossi, Hoda Eldardiry</details></details>
 [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2510.07429)
 
 
-+ **Adaptive llm routing under budget constraints** (2025)<details><summary>Pranoy Panda, Raghav Magazine, Chaitanya Devaguptapu, et al.</summary>Pranoy Panda, Raghav Magazine, Chaitanya Devaguptapu, Sho Takemori, Vishal Sharma</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2508.21141)
++ **LLM Cache Bandit Revisited: Addressing Query Heterogeneity for Cost-Effective LLM Inference** (2025)<details><summary>Hantao Yang, Hong Xie, Defu Lian, et al.</summary>Hantao Yang, Hong Xie, Defu Lian, Enhong Chen</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2509.15515)
+
+## Decoding Strategies
+
++ **BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms** (2025)<details><summary>Yunlong Hou, Fengzhuo Zhang, Cunxiao Du, et al.</summary>Yunlong Hou, Fengzhuo Zhang, Cunxiao Du, Xuan Zhang, Jiachun Pan, Tianyu Pang, Chao Du, Vincent YF Tan, Zhuoran Yang</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2505.15141)
 
 
-+ **Neural Bandit Based Optimal LLM Selection for a Pipeline of Tasks** (2025)<details><summary>Baran Atalar, Eddie Zhang, Carlee Joe-Wong</summary>Baran Atalar, Eddie Zhang, Carlee Joe-Wong</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2508.09958)
++ **Speculative Decoding via Early-exiting for Faster LLM Inference with Thompson Sampling Control Mechanism** (2024)<details><summary>Jiahao Liu, Qifan Wang, Jingang Wang, et al.</summary>Jiahao Liu, Qifan Wang, Jingang Wang, Xunliang Cai</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2406.03853)
 
 
-+ **How Do We Select Right {LLM} for Each Query?** (2025)<details><summary>Bowen Zhang, Gang Wang, Qi Chen, et al.</summary>Bowen Zhang, Gang Wang, Qi Chen, Anton van den Hengel</details></details>
-[![Paper](https://img.shields.io/badge/Paper-blue)](https://openreview.net/forum?id=AfA3qNY0Fq)
++ **Not-a-Bandit: Provably No-Regret Drafter Selection in Speculative Decoding for LLMs** (2025)<details><summary>Hongyi Liu, Jiaji Huang, Zhen Jia, et al.</summary>Hongyi Liu, Jiaji Huang, Zhen Jia, Youngsuk Park, Yu-Xiang Wang</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2510.20064)
 
 
++ **Tokenized Bandit for LLM Decoding and Alignment** (2025)<details><summary>Suho Shin, Chenghao Yang, Haifeng Xu, et al.</summary>Suho Shin, Chenghao Yang, Haifeng Xu, Mohammad T Hajiaghayi</details></details>
+[![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2506.07276)
 
 
 ## Adaptation and Personalization
@@ -469,7 +470,7 @@ Our search strategy is organized into four hierarchical layers to balance **Sens
 
 # 📍 LLM-enhancements for Multi-armed Bandits
 
-## Optimization Objective
+## Regret Minimization Objective
 + **On Bits and Bandits: Quantifying the Regret-Information Trade-off** (2024)<details><summary>Itai Shufaro, Nadav Merlis, Nir Weinberger, et al.</summary>Itai Shufaro, Nadav Merlis, Nir Weinberger, Shie Mannor</details></details>
 [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2405.16581)
 
