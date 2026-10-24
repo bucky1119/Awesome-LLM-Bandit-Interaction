@@ -206,7 +206,7 @@ Our search strategy is organized into four hierarchical layers to balance **Sens
 [![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2411.01493)
 
 
-+ **Chunks as arms: Multi-armed bandit-guided sampling for long-context llm preference optimization** (2025)<details><summary>Shaohua Duan, Xinze Li, Zhenghao Liu, et al.</summary>Shaohua Duan, Xinze Li, Zhenghao Liu, Xiaoyuan Yi, Yukun Yan, Shuo Wang, Yu Gu, Ge Yu, Maosong Sun</details></details>
++ **Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization** (2026)<details><summary>Shaohua Duan, Pengcheng Huang, Xinze Li, et al.</summary>Shaohua Duan, Pengcheng Huang, Xinze Li, Zhenghao Liu, Xiaoyuan Yi, Yukun Yan, Shuo Wang, Yu Gu, Ge Yu, Maosong Sun</details></details>
 [![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2508.13993)
 
 
@@ -342,7 +342,7 @@ Our search strategy is organized into four hierarchical layers to balance **Sens
 [![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2406.00244)
 
 
-+ **Chunks as arms: Multi-armed bandit-guided sampling for long-context llm preference optimization** (2025)<details><summary>Shaohua Duan, Xinze Li, Zhenghao Liu, et al.</summary>Shaohua Duan, Xinze Li, Zhenghao Liu, Xiaoyuan Yi, Yukun Yan, Shuo Wang, Yu Gu, Ge Yu, Maosong Sun</details></details>
++ **Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization** (2026)<details><summary>Shaohua Duan, Pengcheng Huang, Xinze Li, et al.</summary>Shaohua Duan, Pengcheng Huang, Xinze Li, Zhenghao Liu, Xiaoyuan Yi, Yukun Yan, Shuo Wang, Yu Gu, Ge Yu, Maosong Sun</details></details>
 [![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.48550/arXiv.2508.13993)
 
 
